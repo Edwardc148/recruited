@@ -1,0 +1,151 @@
+/* CONTAINER */
+
+.outer-container-div {
+  height: 100%;
+}
+
+.inner-container-div {
+  height: 100%;
+}
+
+/* NAVIGATION BAR  */
+
+.outer-navigation-div {
+  height: 140px;
+}
+
+.inner-navigation-div {
+  /* background: #7a97ff; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  /* padding: 50px 0px 0px 70px;
+  font-size: 50px;
+  position: absolute; */
+
+  font-size: 50px;
+  position: absolute;
+  width: 90px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  left: 50px;
+  top: 55px;
+  background: lightgray;
+}
+
+.landing-header {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 62px;
+  /* font-size: 48px; */
+  color: #ffffff;
+  font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 6px;
+  font-size: 80px;
+}
+
+.button-login-google-fake {
+  display: none;
+}
+
+/* CENTER STYLING */
+
+.main-landing-div {
+  /* background: #7a97ff; */
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.session-div-logged-out {
+  text-align: center;
+}
+
+.first-text {
+  padding-top: 16%;
+  font-size: 34px;
+  /* font-style: italic; */
+  /* color: white; */
+  letter-spacing: 6px;
+  font-size: 34px;
+    /* font-style: italic; */
+    font-weight: 700;
+    font-family: -webkit-body;
+    /* margin-top: 15px; */
+    color: black;
+    /* letter-spacing: 6px; */
+}
+
+.second-text {
+  font-size: 34px;
+  /* font-style: italic; */
+  margin-top: 15px;
+  /* color: white; */
+  /* letter-spacing: 6px; */
+  /* font-size: 34px; */
+    /* font-style: italic; */
+    font-weight: 700;
+    font-family: -webkit-body;
+    margin-top: 15px;
+    color: black;
+    letter-spacing: 6px;
+}
+
+.third-text {
+  font-size: 34px;
+  /* font-style: italic; */
+  margin-top: 15px;
+  color: #ff0000;
+  font-weight: 700;
+  letter-spacing: 6px;
+  font-family: -webkit-body;
+}
+
+.fourth-text {
+  margin-top: 50px;
+  color: #000000;
+}
+
+.button-to-sign-up {
+  margin-top: 30px;
+}
+
+.button-login-google-real {
+  display: inline-block;
+  background: #fff4f4;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-to-demo {
+  display: inline-block;
+  background: #fff4f4;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button-to-demo:hover {
+  background:lightgray;
+  cursor: pointer;
+}
+
+.button-login-google-real:visited {
+  text-decoration: none;
+}
+
+.button-login-google-real:hover {
+  background: lightgray;
+}
